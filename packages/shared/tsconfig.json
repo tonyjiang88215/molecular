@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "removeComments": false,
+    "baseUrl": "../..",
+    "outDir": "lib",
+    "paths": {},
+    "jsx": "react",
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "importHelpers": true,
+    "noImplicitThis": false,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "es7",
+      "es6",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "typeRoots": [
+      "node",
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "**/*/__test__/**/*"
+  ]
+}

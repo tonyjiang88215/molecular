@@ -1,7 +1,7 @@
 {
-    "name": "@tjmol/core",
-    "description": "mol 是一套高度抽象、具有良好扩展性的插件系统",
-    "version": "0.1.5",
+    "name":"@tjmol/shared",
+    "description": "shared packages",
+    "version": "0.1.0",
     "main": "lib/index.js",
     "files": [
         "lib"
@@ -12,8 +12,9 @@
         "test": "jest"
     },
     "dependencies": {
+        "jsep": "^0.4.0",
         "lodash": "4.17.11",
-        "@tjmol/shared": "~0.1.0"
+        "ts-optchain": "^0.1.8"
     },
     "devDependencies": {
         "@types/jest": "~25.2.1",
@@ -22,13 +23,10 @@
         "ts-jest": "~25.3.1",
         "tslib": "^2.1.0",
         "typescript": "4.1.2",
-        "mobx": "5.5.2",
-        "mobx-react-lite": "^2.0.6",
         "react": "18.3.1"
     },
     "peerDependencies": {
-        "react": "18.3.1",
-        "mobx": "5.5.2"
+        "react": "18.3.1"
     },
     "publishConfig": {
         "access": "public",

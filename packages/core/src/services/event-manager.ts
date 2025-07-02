@@ -1,4 +1,4 @@
-import { IEventManager as IBaseEventManager, EventManager as BaseEventManager } from '@q7/shared';
+import { IEventManager as IBaseEventManager, EventManager as BaseEventManager } from '@tjmol/shared';
 import { Bean } from '../beans';
 import { ExpansionFeatureNames } from './constants';
 import { IContributeDefinitions, IContributionPointDefinitions } from '../manifests/type';

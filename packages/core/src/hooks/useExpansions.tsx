@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef } from 'react';
 import ReactDOM, { findDOMNode } from 'react-dom';
 import { IExpansionSystem } from '../expansion-system';
-import { ExpansionDevtools } from '../../devtools';
+import { ExpansionDevtools } from '../devtools';
 
 const ExpansionContext = React.createContext<IExpansionSystem>();
 ExpansionContext.displayName = 'ExpansionContext';
@@ -24,9 +24,9 @@ export function ExpansionContextProvider(props: { value: IExpansionSystem, child
 
   return (
     <ExpansionContext.Provider value={props.value}>
-      <ExpansionDevtoolsConnector es={props.value}>
+      {/* <ExpansionDevtoolsConnector es={props.value}> */}
         {props.children}
-      </ExpansionDevtoolsConnector>
+      {/* </ExpansionDevtoolsConnector> */}
     </ExpansionContext.Provider>
   );
 }

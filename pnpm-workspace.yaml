@@ -1,2 +1,4 @@
 packages:
-  - 'packages/**'
+  - 'packages/core'
+  - 'packages/shared'
+  - 'packages/extensions/*'

@@ -10,7 +10,7 @@ import {
 import { IExtensionManager } from './extension-manager';
 import { ContributionKeywordDevtoolsOverview, IContributionManager } from './contribution-keyword-manager';
 import { IExpansionSystem } from '../expansion-system';
-import { createConnection, IMessageConnection } from '../../devtools/connections/connection';
+import { createConnection, IMessageConnection } from '../devtools/connections/connection';
 import { IEventManager } from './event-manager';
 
 export type IExpansionDevtoolsOptions = {

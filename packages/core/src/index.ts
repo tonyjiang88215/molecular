@@ -1,6 +1,9 @@
 export * from './manifests';
 export * from './expansion-system';
 export type {
+  IDestructible
+} from './beans';
+export type {
   ContributionKeywordInitOptions,
   IExpansionImplement,
   IExpansionBaseContext,

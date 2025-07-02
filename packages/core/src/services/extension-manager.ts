@@ -1,4 +1,4 @@
-import { functionalized } from '@q7/shared';
+import { functionalized } from '@tjmol/shared';
 import type { IContributeDefinitions, IExpansionManifest, IActivationEventDefinition, IContributionKeywordDefinition } from '../manifests';
 
 import { Bean, Autowired, ExpansionSeedNames, PostConstruct, PreDestroy } from '../beans';

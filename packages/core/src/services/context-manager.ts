@@ -1,4 +1,4 @@
-import { IDisposer } from '@q7/shared';
+import type { IDisposer } from './declare';
 import type { IContributeDefinitions, IExpansionManifest } from '../manifests';
 import type { IContributionManager, IContributionKeywordImpl } from './contribution-keyword-manager';
 import type { IManifestManager } from './manifest-manager';
@@ -17,6 +17,7 @@ import {
 import { IExpansionSystem } from '../expansion-system';
 import { IContributionPointDefinitions } from '../manifests';
 import { mergeContributes } from '../util';
+
 
 
 /**

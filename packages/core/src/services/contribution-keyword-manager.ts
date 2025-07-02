@@ -1,4 +1,4 @@
-import { IDisposer } from '@q7/shared';
+import { IDisposer } from '@tjmol/shared';
 
 import { Autowired, Bean, ExpansionSeedNames, PostConstruct, PreDestroy } from '../beans';
 import { ExpansionFeatureNames } from './constants';
